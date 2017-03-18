@@ -1,0 +1,80 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.topmoives.MoiveDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/movie_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="@android:color/holo_purple"
+            android:text="@string/hello_blank_fragment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/moive_image_view"
+                android:layout_width="216dp"
+                android:layout_height="318dp"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/release_date_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/hello_blank_fragment"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/vote_average_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/hello_blank_fragment" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/overview_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="@string/hello_blank_fragment" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
+
+</ScrollView>

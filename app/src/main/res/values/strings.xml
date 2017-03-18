@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TopMoives</string>
+    <string name="menu_title_setting">SETTING</string>
+    <string name="menu_title_refresh">REFRESH</string>
+
+    <string name="pref_sort_default">popular</string>
+    <string name="pref_sort_title">SORT BY</string>
+    <string name="pref_sort_key">Sort Type</string>
+
+
+    <string-array name="sort_type">
+        <item>Popular Movies</item>
+        <item>TopRated Movies</item>
+    </string-array>
+
+    <string-array name="sort_type_value">
+        <item>popular</item>
+        <item>top_rated</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings related to Settings -->
+
+
+</resources>
